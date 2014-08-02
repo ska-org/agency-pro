@@ -1,5 +1,7 @@
 // Mike Lyon hacks Brigette Callahan SKA Shotokan Karate hacks begin here - copy these lines when upgrading theme!
 
+wp_enqueue_style('custom', 'https://raw.githubusercontent.com/ska-org/agency-pro/master/custom.css');
+
 add_image_size( '100-page', 1040, 2000, FALSE ); // Mike lyon hack SKA Brigette
 
 add_image_size( '050-page', 520,520, FALSE ); // Mike lyon hack SKA Brigette
