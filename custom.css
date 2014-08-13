@@ -165,7 +165,7 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   font-size: 1.2rem;
 }
 .site-header{
-  background-image: url("http://ska.babilonarts.info/wp-content/images/SKA-header-bkgd-gradation.jpg");
+  background-image: url("http://ska.org/wp-content/uploads/SKA-header-bkgd-gradation.jpg");
   background-repeat: repeat-x;
   z-index: 9;
   background-color:transparent;
@@ -395,7 +395,7 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   padding: 4rem;
 }
 .footer-widgets{
-  background-image: url("http://ska.babilonarts.info/wp-content/images/SKA-footer-bkgd-gradate.png");
+  background-image: url("http://ska.org/wp-content/uploads/SKA-footer-bkgd-gradate.png");
   background-repeat: repeat-x;
   background-color: #00021f;
   padding: 40px 0 0px;
