@@ -343,10 +343,6 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 .entry-header .entry-meta{
   margin-bottom: 2rem;
 }
-.entry-footer .entry-meta{
-  margin: 0 -4rem;
-  padding: 3.2rem 4rem 0.8rem;
-}
 .entry-comments-link::before{
   margin: 0 0.4rem 0 0.6rem;
 }
@@ -397,20 +393,13 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   background-image: url("http://ska.org/wp-content/uploads/SKA-footer-bkgd-gradate.png");
   background-repeat: repeat-x;
   background-color: #00021f;
-  padding: 40px 0 0px;
-  padding: 4rem 0 0rem;
-  margin-top: 0px;
   border-top: 0px;
 }
 .footer-widgets-1{
   padding: 10px 24px 0 24px;
   color: #ffffff;
-  margin-right: 40px;
-  margin-right: 4rem;
   background-color: #5b76a3;
   text-align: center;
-  position: relative;
-  float: left;
 }
 .footer-widgets-1 .widget-title{
   font-size: 16;
@@ -419,9 +408,6 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 }
 .footer-widgets-1 #user_login, #user_pass{
   font-size: 12px;
-  margin-bottom: 1px;
-  display: block;
-  padding: 1px 0 1px 10px;
   border: solid 1px #85b1de;
   width: 100%;
   color: #0c1741;
@@ -439,10 +425,7 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   background-color: #0c1741;
 }
 .footer-widgets-2{
-  padding: 10px 24px 0 24px;
   color: #ffffff;
-  margin-right: 40px;
-  margin-right: 4rem;
   background-color: #b78e4e;
   text-align: center;
 }
@@ -465,11 +448,6 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   font-size: 12px;
   font-size: 1.2rem;
   color: #0c1741;
-  Text-align: left;
-  margin-bottom: 1px;
-  display: block;
-  border: solid 1px #b78e4e;
-  width: 100%;
   height:16px;
 }
 #gform_submit_button_2{
@@ -479,20 +457,12 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   width: 100%;
   background-color: #0c1741;
 }
-.footer-widgets .widget{
-  margin-bottom: 2.4rem;
-}
-.footer-widgets li{
-  margin-bottom: 0.6rem;
-}
 .site-footer{
   background-color: #00021f;
   color: #888;
   font-size: 1rem;
   letter-spacing: 1px;
   letter-spacing: 0.1rem;
-  padding: 20px 0;
-  padding: 2rem 0;
 }
 .site-footer a{
   color: #E99D11;
@@ -575,12 +545,6 @@ body.agency-pro-orange a{
   .content {
     padding-top: 170px;
   }
-  .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3,
-  .sidebar-primary {
-    width: 280px;
-  }
 }
 @media only screen and (max-width: 1023px)
 {
@@ -632,18 +596,6 @@ body.agency-pro-orange a{
   .content {
     padding-top: 115px;
   }
-  .site-footer{
-    padding: 24px 0;
-    padding: 2.4rem 0;
-  }
-  .footer-widgets{
-    padding: 40px 5% 16px;
-  }
-  .footer-widgets-1{
-    margin: 0;
-    margin-right: 40px;
-    margin-right: 4rem;
-  }
   .home-middle .featured-content .post:nth-of-type(3n+1){
     clear: none;
   }
@@ -664,15 +616,6 @@ body.agency-pro-orange a{
   }
   #home-top{
     padding-top: 120px;
-  }
-    .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3,
-  .sidebar-primary {
-    width: 190px;
-  }
-  .footer-widgets-3 {
-    width: 225px;
   }
 }
 @media only screen and (max-width: 800px)
@@ -710,12 +653,6 @@ body.agency-pro-orange a{
   }
   li{
     list-style-type: none;
-  }
-  .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3,
-  .sidebar-primary {
-    width: 300px;
   }
 }
 @media only screen and (max-width: 680px)
