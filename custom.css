@@ -167,7 +167,6 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 .site-header{
   background-image: url("http://ska.org/wp-content/uploads/SKA-header-bkgd-gradation.jpg");
   background-repeat: repeat-x;
-  z-index: 9;
   background-color:transparent;
 }
 .site-header .widget{
@@ -236,7 +235,7 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   font-size: 1.4rem;
 }
 .genesis-nav-menu a{
-  color: #f70
+  color: #f70;
   padding: 1.8rem 2.6rem 2rem 0rem;
   border-top: none;
   background-color: transparent;
@@ -564,13 +563,11 @@ body.agency-pro-orange a{
     min-height: 360px;
   }
   #text-8{
-    float: left;
-    clear: left;
-    margin: 0 0 10px;
-    width: 100%;
-    display: inline;
-    padding: 10px;
-    text-align: center;
+    display: block;
+    float: none;
+    margin: 0px auto;
+    padding: 0px;
+    width: 186px;
   }
   #home-top{
     padding-top: 160px;
