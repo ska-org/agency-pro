@@ -221,6 +221,18 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   color: #fff;
   background-color: transparent;
 }
+.genesis-nav-menu .menu-item:focus > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
+.genesis-nav-menu .menu-item:hover > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
+.genesis-nav-menu .menu-item:active > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
 .genesis-nav-menu .sub-menu {
   border-top-color: #0c1640;
   border-top: thick;
