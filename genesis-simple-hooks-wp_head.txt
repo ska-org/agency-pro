@@ -1,0 +1,2 @@
+<link rel="stylesheet" id="agency-pro-custom" href="/wp-content/themes/agency-pro/custom.css" type="text/css" media="all">
+<script type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>

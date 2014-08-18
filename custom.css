@@ -177,9 +177,14 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   width: 260px;
   margin-bottom: -110px;
 }
-#text-8{
+.header-widget-area .widget.widget_text {
   float:right;
   margin-top: -13rem;
+}
+#home-top .widget_text h2 {
+  color: #FFF;
+  margin-top: 1em;
+  text-shadow: 2px 2px 4px #000;
 }
 #nav_menu-4{
   margin-top: -1rem;
@@ -221,6 +226,21 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   color: #fff;
   background-color: transparent;
 }
+.genesis-nav-menu .menu-item:hover {
+  position: relative;
+}
+.genesis-nav-menu .menu-item:focus > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
+.genesis-nav-menu .menu-item:hover > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
+.genesis-nav-menu .menu-item:active > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
 .genesis-nav-menu .sub-menu {
   border-top-color: #0c1640;
   border-top: thick;
@@ -231,12 +251,19 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 .genesis-nav-menu .sub-menu a:hover {
   background-color: #0c1640;
 }
+.genesis-nav-menu .sub-menu .sub-menu {
+  width: 112px;
+}
+.genesis-nav-menu .sub-menu .sub-menu a {
+  background-color: #15204D;
+  width: 112px;
+}
 .genesis-nav-menu{
   font-size: 1.4rem;
 }
 .genesis-nav-menu a{
   color: #f70;
-  padding: 1.8rem 2.6rem 2rem 0rem;
+  padding: 1.2rem 1.6rem;
   border-top: none;
   background-color: transparent;
 }
@@ -250,7 +277,7 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 .genesis-nav-menu .sub-menu a{
   background-color: #0c1640;
   font-size: 1.2rem;
-  padding: 0.6rem;
+  padding: 1rem 1rem 1rem 1.6rem;
 }
 .genesis-nav-menu > .right{
   float: left;
@@ -512,6 +539,7 @@ body.agency-pro-orange a{
     width: 620px;
   }
   .site-header .widget-area{
+    margin-top: 1.2rem;
     width: 100%;
   }
   .content-sidebar-sidebar .content{
@@ -532,7 +560,7 @@ body.agency-pro-orange a{
   .home-bottom .featuredpost .entry{
     min-height: 360px;
   }
-  #text-8{
+  .header-widget-area .widget.widget_text {
     display: block;
     float: none;
     margin: 0px auto;
@@ -607,12 +635,10 @@ body.agency-pro-orange a{
     width: 50%;
   }
   .genesis-nav-menu a{
-    padding: 1px 10px 0px;
-    padding: 0.1rem 1.1rem 0.1rem;
+    padding: 1rem 1.2rem;
   }
   .genesis-nav-menu .sub-menu a{
-    padding: 12px;
-    padding: 1.2rem;
+    padding: 1rem 1.2rem;
   }
   #home-top{
     padding-top: 120px;
@@ -677,6 +703,15 @@ body.agency-pro-orange a{
   .agency-pro-home .content .featured-content .entry-header{
     clear: both;
   }
+  .genesis-nav-menu .menu-item:focus > .sub-menu {
+    left: -3em;
+  }
+  .genesis-nav-menu .menu-item:hover > .sub-menu {
+    left: -3em;
+  }
+  .genesis-nav-menu .menu-item:active > .sub-menu {
+    left: -3em;
+  }
   .home-top .widget-title{
     font-size: 48px;
     font-size: 4.8rem;
@@ -709,4 +744,3 @@ body.agency-pro-orange a{
     padding-top: 0px;
   }
 }
-
