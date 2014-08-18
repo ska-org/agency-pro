@@ -221,6 +221,18 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   color: #fff;
   background-color: transparent;
 }
+.genesis-nav-menu .menu-item:focus > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
+.genesis-nav-menu .menu-item:hover > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
+.genesis-nav-menu .menu-item:active > .sub-menu {
+  left: auto;
+  opacity: 1;
+}
 .genesis-nav-menu .sub-menu {
   border-top-color: #0c1640;
   border-top: thick;
@@ -236,7 +248,7 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 }
 .genesis-nav-menu a{
   color: #f70;
-  padding: 1.8rem 2.6rem 2rem 0rem;
+  padding: 1.2rem 1.6rem;
   border-top: none;
   background-color: transparent;
 }
@@ -250,7 +262,7 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 .genesis-nav-menu .sub-menu a{
   background-color: #0c1640;
   font-size: 1.2rem;
-  padding: 0.6rem;
+  padding: 1rem 1rem 1rem 1.6rem;
 }
 .genesis-nav-menu > .right{
   float: left;
@@ -512,6 +524,7 @@ body.agency-pro-orange a{
     width: 620px;
   }
   .site-header .widget-area{
+    margin-top: 1.2rem;
     width: 100%;
   }
   .content-sidebar-sidebar .content{
@@ -607,12 +620,10 @@ body.agency-pro-orange a{
     width: 50%;
   }
   .genesis-nav-menu a{
-    padding: 1px 10px 0px;
-    padding: 0.1rem 1.1rem 0.1rem;
+    padding: 1rem 1.2rem;
   }
   .genesis-nav-menu .sub-menu a{
-    padding: 12px;
-    padding: 1.2rem;
+    padding: 1rem 1.2rem;
   }
   #home-top{
     padding-top: 120px;
