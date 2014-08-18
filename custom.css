@@ -226,6 +226,9 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   color: #fff;
   background-color: transparent;
 }
+.genesis-nav-menu .menu-item:hover {
+  position: relative;
+}
 .genesis-nav-menu .menu-item:focus > .sub-menu {
   left: auto;
   opacity: 1;
@@ -247,6 +250,13 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 }
 .genesis-nav-menu .sub-menu a:hover {
   background-color: #0c1640;
+}
+.genesis-nav-menu .sub-menu .sub-menu {
+  width: 112px;
+}
+.genesis-nav-menu .sub-menu .sub-menu a {
+  background-color: #15204D;
+  width: 112px;
 }
 .genesis-nav-menu{
   font-size: 1.4rem;
@@ -693,6 +703,15 @@ body.agency-pro-orange a{
   .agency-pro-home .content .featured-content .entry-header{
     clear: both;
   }
+  .genesis-nav-menu .menu-item:focus > .sub-menu {
+    left: -3em;
+  }
+  .genesis-nav-menu .menu-item:hover > .sub-menu {
+    left: -3em;
+  }
+  .genesis-nav-menu .menu-item:active > .sub-menu {
+    left: -3em;
+  }
   .home-top .widget-title{
     font-size: 48px;
     font-size: 4.8rem;
@@ -725,4 +744,3 @@ body.agency-pro-orange a{
     padding-top: 0px;
   }
 }
-
