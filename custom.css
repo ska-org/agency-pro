@@ -181,6 +181,11 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   float:right;
   margin-top: -13rem;
 }
+#home-top .widget_text h2 {
+  color: #FFF;
+  margin-top: 1em;
+  text-shadow: 2px 2px 4px #000;
+}
 #nav_menu-4{
   margin-top: -1rem;
 }
