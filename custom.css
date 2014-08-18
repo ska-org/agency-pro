@@ -177,7 +177,7 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   width: 260px;
   margin-bottom: -110px;
 }
-#text-8{
+.header-widget-area .widget.widget_text {
   float:right;
   margin-top: -13rem;
 }
@@ -545,7 +545,7 @@ body.agency-pro-orange a{
   .home-bottom .featuredpost .entry{
     min-height: 360px;
   }
-  #text-8{
+  .header-widget-area .widget.widget_text {
     display: block;
     float: none;
     margin: 0px auto;
