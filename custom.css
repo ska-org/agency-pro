@@ -226,7 +226,13 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   color: #fff;
   background-color: transparent;
 }
+.genesis-nav-menu .menu-item:focus {
+  position: relative;
+}
 .genesis-nav-menu .menu-item:hover {
+  position: relative;
+}
+.genesis-nav-menu .menu-item:active {
   position: relative;
 }
 .genesis-nav-menu .menu-item:focus > .sub-menu {
