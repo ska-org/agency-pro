@@ -1,2 +1,59 @@
 <link rel="stylesheet" id="agency-pro-custom" href="/wp-content/themes/agency-pro/custom.css" type="text/css" media="all">
-<script type="text/javascript">document.addEventListener("touchstart", function() {},false);</script>
+<script type="text/javascript">
+  var SKA = {};
+
+  SKA.Menu = function () {
+    init = function () {
+      document.removeEventListener("DOMContentLoaded", init, false);
+      window.removeEventListener("load", init, false);
+
+      var touched;
+
+      menuParentTouch = function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        untouch();
+        touched = this.parentNode;
+        touched.className = touched.className +" touched";
+      }
+
+      untouch = function () {
+        if (touched !== undefined) {
+          touched.className = touched.className.replace(" touched", "");
+        }
+      }
+
+      if (false
+      // Touch Events support test
+      || 'ontouchstart' in window
+      // Pointer Events device touch capability test
+      || navigator.maxTouchPoints
+      || navigator.msMaxTouchPoints
+      || (window.DocumentTouch && document instanceof DocumentTouch)
+      ) {
+        document.documentElement.className += " touch";
+
+        // Modify Touch Event behavior to improve menus on iOS devices
+        if ('ontouchstart' in window) {
+          document.addEventListener("touchstart", untouch, true);
+
+          var menuParents = document.getElementsByClassName("menu-item-has-children");
+          for (var i=0, iLength = menuParents.length; i < iLength; i++) {
+            if (menuParents[i].children) {
+              for (var j=0, jLength = menuParents[i].children.length; j < jLength; j++) {
+                var child = menuParents[i].children[j];
+                if (child.nodeName.toLowerCase() === "a") {
+                  child.addEventListener('touchstart', menuParentTouch, false);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", init, false);
+    window.addEventListener("load", init, false);
+  }();
+</script>

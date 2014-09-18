@@ -233,6 +233,9 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   color: #fff;
   background-color: transparent;
 }
+.genesis-nav-menu .menu-item.touched {
+  position: relative;
+}
 .genesis-nav-menu .menu-item:focus {
   position: relative;
 }
@@ -241,6 +244,10 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 }
 .genesis-nav-menu .menu-item:active {
   position: relative;
+}
+.genesis-nav-menu .menu-item.touched > .sub-menu {
+  left: auto;
+  opacity: 1;
 }
 .genesis-nav-menu .menu-item:focus > .sub-menu {
   left: auto;
@@ -276,7 +283,7 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 }
 .genesis-nav-menu a{
   color: #f70;
-  padding: 1.2rem 1.6rem;
+  padding: 0.75em 1em;
   border-top: none;
   background-color: transparent;
 }
@@ -610,6 +617,9 @@ body.agency-pro-orange a{
   .site-title{
     text-align: center;
   }
+  .genesis-nav-menu a {
+    padding: 0.75em;
+  }
   .genesis-nav-menu > .last > a{
     padding: 20px 16px;
     padding: 2rem 1.6rem;
@@ -636,12 +646,6 @@ body.agency-pro-orange a{
   .agency-pro-home .featuredpost .entry{
     min-height: 380px;
     width: 50%;
-  }
-  .genesis-nav-menu a{
-    padding: 1rem 1.2rem;
-  }
-  .genesis-nav-menu .sub-menu a{
-    padding: 1rem 1.2rem;
   }
   #home-top{
     padding-top: 120px;
@@ -696,6 +700,9 @@ body.agency-pro-orange a{
   .wrap{
     width: 90%;
   }
+  .site-header .wrap {
+    width: 95%;
+  }
   .agency-pro-home .content .wrap{
     max-width: 380px;
   }
@@ -706,14 +713,20 @@ body.agency-pro-orange a{
   .agency-pro-home .content .featured-content .entry-header{
     clear: both;
   }
+  .genesis-nav-menu a {
+    padding: 0.75em 0.5em;
+  }
+  .genesis-nav-menu .menu-item.touched > .sub-menu {
+    left: -2.25em;
+  }
   .genesis-nav-menu .menu-item:focus > .sub-menu {
-    left: -3em;
+    left: -2.25em;
   }
   .genesis-nav-menu .menu-item:hover > .sub-menu {
-    left: -3em;
+    left: -2.25em;
   }
   .genesis-nav-menu .menu-item:active > .sub-menu {
-    left: -3em;
+    left: -2.25em;
   }
   .home-top .widget-title{
     font-size: 48px;
