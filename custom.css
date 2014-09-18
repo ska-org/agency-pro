@@ -428,6 +428,15 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   background-color: #00021f;
   border-top: 0px;
 }
+.footer-widgets .widget-area {
+  height: 10em;
+}
+.footer-widgets .footer-widgets-1 {
+	padding-top: 2.5em;
+}
+.footer-widgets .footer-widgets-2 {
+	padding-top: 1.5em;
+}
 .footer-widgets-1{
   padding: 10px 24px 0 24px;
   color: #ffffff;
