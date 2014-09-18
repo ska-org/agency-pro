@@ -164,6 +164,12 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   font-size: 12px;
   font-size: 1.2rem;
 }
+.org-title {
+  color: #B3C7FC;
+  font-family: "Spinnaker", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
 .site-header{
   background-image: url("http://ska.org/wp-content/uploads/SKA-header-bkgd-gradation.jpg");
   background-repeat: repeat-x;
@@ -190,13 +196,14 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   margin-top: -1rem;
 }
 .title-area{
-  padding: 1.6rem 0 0 0;
+  min-height: 5em;
+  padding: 0.75em 0 0 0;
   width: 100%;
 }
 .site-title{
-  font-size: 32px;
-  font-size: 3.2rem;
-  text-transform: titlecase;
+  font-size: 2em;
+  line-height: 1.2em;
+  text-transform: none;
 }
 .site-title a{
   color: #f3cd5c;
@@ -205,15 +212,15 @@ div.gform_wrapper .gform_footer input[type="submit"]{
   color: #ffa200;
 }
 .site-description{
-  color: #9a9cba;
+  color: #B3C7FC;
   font-size: 12px;
-  font-size: 1.2rem;
-  font-style: italic;
+  font-size: 1.4rem;
   font-weight: 100;
+  margin-bottom: 0.5em;
 }
 .site-header .widget-area{
   float: left;
-  margin-top: 25px;
+  margin-top: 0;
   text-align: left;
   width: 100%;
 }
@@ -515,29 +522,11 @@ div.gform_wrapper .gform_footer input[type="submit"]{
 .agency-pro-orange.agency-pro-home .featured-content a:hover{
   color: #fff;
 }
-.agency-pro-orange .site-title a{
-  color: #E99D11;
-}
 .agency-pro-orange a.button{
   color: #e99d11;
 }
-.agency-pro-orange .site-title a:hover{
-  color: #fff;
-}
-.agency-pro-orange .site-footer a{
-  color: #E99D11;
-}
-.agency-pro-orange .site-footer a:hover{
-  color: #fff;
-}
 body.agency-pro-orange a{
   color: #b70;
-  .agency-pro-red .genesis-nav-menu .current-menu-item > a,;
-  .agency-pro-red .genesis-nav-menu .v .current-menu-item > a:hover,;
-  .agency-pro-red .genesis-nav-menu a:hover,;
-  .agency-pro-red .site-title a:hover,;
-  .agency-pro-red a,;
-  .agency-pro-red.agency-pro-home .featured-content a:hover;
 }
 #skipTo{
   display: none;
@@ -554,7 +543,6 @@ body.agency-pro-orange a{
     width: 620px;
   }
   .site-header .widget-area{
-    margin-top: 1.2rem;
     width: 100%;
   }
   .content-sidebar-sidebar .content{
@@ -731,11 +719,26 @@ body.agency-pro-orange a{
     font-size: 48px;
     font-size: 4.8rem;
   }
-  .site-title a{
+  .org-title {
     display: none;
   }
   .site-description{
     display: none;
+  }
+  .site-title a{
+    display: none;
+  }
+  .site-title.dojo {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  .site-title.dojo a {
+    display: block;
+  }
+  .title-area {
+    min-height: 0;
+    padding: 0.5em 0 0;
   }
   .home-middle .featuredpost img.entry-image{
     position: relative;
