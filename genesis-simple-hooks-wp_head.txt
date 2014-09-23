@@ -3,26 +3,9 @@
   var SKA = {};
 
   SKA.Menu = function () {
-    init = function () {
+    var init = function () {
       document.removeEventListener("DOMContentLoaded", init, false);
       window.removeEventListener("load", init, false);
-
-      var touched;
-
-      menuParentTouch = function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-
-        untouch();
-        touched = this.parentNode;
-        touched.className = touched.className +" touched";
-      }
-
-      untouch = function () {
-        if (touched !== undefined) {
-          touched.className = touched.className.replace(" touched", "");
-        }
-      }
 
       if (false
       // Touch Events support test
@@ -34,17 +17,15 @@
       ) {
         document.documentElement.className += " touch";
 
-        // Modify Touch Event behavior to improve menus on iOS devices
+        // Add click event listener to make clickable on iOS devices
         if ('ontouchstart' in window) {
-          document.addEventListener("touchstart", untouch, true);
-
           var menuParents = document.getElementsByClassName("menu-item-has-children");
           for (var i=0, iLength = menuParents.length; i < iLength; i++) {
             if (menuParents[i].children) {
               for (var j=0, jLength = menuParents[i].children.length; j < jLength; j++) {
                 var child = menuParents[i].children[j];
                 if (child.nodeName.toLowerCase() === "a") {
-                  child.addEventListener('touchstart', menuParentTouch, false);
+                  child.addEventListener('click', function () {}, false);
                 }
               }
             }
