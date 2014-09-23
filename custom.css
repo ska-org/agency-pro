@@ -63,6 +63,18 @@ textarea {
 
 
 /* Elements */
+.agency-pro-orange .breadcrumb a
+, .agency-pro-orange .breadcrumb a:visited {
+	color: #B3C7FC;
+	font-size: 1.2em;
+}
+.agency-pro-orange .breadcrumb a:focus
+, .agency-pro-orange .breadcrumb a:hover {
+	color: #FFF;
+}
+.agency-pro-orange .breadcrumb a:active {
+	color: #F07802;
+}
 .agency-pro-home .content .featured-content {
 	padding: 0;
 }
@@ -146,8 +158,8 @@ textarea {
 	margin-bottom: 0.4rem;
 }
 .breadcrumb {
-	font-size: 1.4rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1em;
+	text-shadow: 2px 2px 4px #000;
 }
 .button:hover {
 	background-color: #ffa200;
