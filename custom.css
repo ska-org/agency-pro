@@ -427,6 +427,30 @@ textarea {
 	font-size: 1.5em;
 	line-height: 1.2em;
 }
+.post-nav {
+	margin: 0.5em 1em;
+	overflow: hidden;
+}
+.post-nav a {
+	float: left;
+}
+.post-nav a
+, .post-nav a:visited {
+	background-color: #B78E4E;
+	color: #FFF;
+	padding: 0.75em 1em;
+}
+.post-nav a:focus
+, .post-nav a:hover {
+	background-color: #C8A978;
+	color: #FFF;
+}
+.post-nav a:active {
+	background-color: #F07802;
+}
+.post-nav a.next {
+	float: right;
+}
 .quote-caption {
 	margin-bottom: 1.6rem;
 }
