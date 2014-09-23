@@ -257,6 +257,18 @@ textarea {
 	color: #ffffff;
 	text-align: center;
 }
+.footer-widgets-2 a
+, .footer-widgets-2 a:visited {
+	color: #B3C7FC;
+}
+.footer-widgets-2 a:focus
+, .footer-widgets-2 a:hover {
+	color: #0E1037;
+}
+.footer-widgets-2 a:active {
+	color: #B3C7FC;
+	text-decoration: underline;
+}
 .footer-widgets-2 .widget-title {
 	color: #ffffff;
 	font-size: 1.6rem;
