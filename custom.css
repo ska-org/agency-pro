@@ -199,6 +199,12 @@ textarea {
 .entry-comments-link::before {
 	margin: 0 0.4rem 0 0.6rem;
 }
+.entry-content iframe {
+	height: 30em;
+	left: 10em;
+	position: relative;
+	width: 45em;
+}
 .entry-content ul {
 	margin-left: 4rem;
 }
@@ -596,6 +602,9 @@ textarea {
 	.content-sidebar-sidebar .content {
 		width: 400px;
 	}
+	.entry-content iframe {
+		left: 4em;
+	}
 	.home-bottom .featuredpost .entry {
 		min-height: 360px;
 	}
@@ -627,6 +636,9 @@ textarea {
 	.agency-pro-home .featuredpost .entry {
 		min-height: 380px;
 		width: 50%;
+	}
+	.entry-content iframe {
+		left: 0;
 	}
 	.genesis-nav-menu a {
 		padding: 0.75em;
@@ -708,6 +720,11 @@ textarea {
 	.entry {
 		padding: 1em;
 	}
+	.entry-content iframe {
+		height: 24em;
+		left: 1.5em;
+		width: 36em;
+	}
 	.entry-title {
 		font-size: 3rem;
 	}
@@ -756,6 +773,11 @@ textarea {
 	}
 	.content {
 		padding-top: 0px;
+	}
+	.entry-content iframe {
+		height: 20em;
+		position: static;
+		width: 30em;
 	}
 	.genesis-nav-menu .menu-item.touched > .sub-menu {
 		left: -2.25em;
