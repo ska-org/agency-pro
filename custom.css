@@ -320,9 +320,6 @@ textarea {
 	color: #fff;
 	background-color: transparent;
 }
-.genesis-nav-menu .menu-item.touched {
-	position: relative;
-}
 .genesis-nav-menu .menu-item:focus {
 	position: relative;
 }
@@ -331,10 +328,6 @@ textarea {
 }
 .genesis-nav-menu .menu-item:active {
 	position: relative;
-}
-.genesis-nav-menu .menu-item.touched > .sub-menu {
-	left: auto;
-	opacity: 1;
 }
 .genesis-nav-menu .menu-item:focus > .sub-menu {
 	left: auto;
@@ -778,9 +771,6 @@ textarea {
 		height: 20em;
 		position: static;
 		width: 30em;
-	}
-	.genesis-nav-menu .menu-item.touched > .sub-menu {
-		left: -2.25em;
 	}
 	.genesis-nav-menu .menu-item:focus > .sub-menu {
 		left: -2.25em;
