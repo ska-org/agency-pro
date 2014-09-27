@@ -12,8 +12,8 @@ add_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
 
 // Set new sizes at which WordPress will save an image when uploaded
-add_image_size( '100-page', 1040, 2000, FALSE );
-add_image_size( '050-page', 520, 520, FALSE );
+add_image_size( '2-across', 495, 980, FALSE );
+add_image_size( '050-page', 520, 1040, FALSE );
 
 
 // Modify embeds to use wmode=opaque so they do not overlap menus
