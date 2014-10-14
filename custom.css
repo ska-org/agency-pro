@@ -360,12 +360,8 @@ textarea {
 .genesis-nav-menu .sub-menu .current-menu-item > a {
 	color: #fff;
 }
-.genesis-nav-menu .sub-menu .sub-menu {
-	width: 112px;
-}
 .genesis-nav-menu .sub-menu .sub-menu a {
 	background-color: #15204D;
-	width: 112px;
 }
 .genesis-nav-menu .v .current-menu-item > a:hover {
 	color: #fff;
@@ -636,7 +632,10 @@ textarea {
 		display: none;
 	}
 	.genesis-nav-menu .sub-menu .sub-menu {
-		margin-top: -42px;
+		width: 112px;
+	}
+	.genesis-nav-menu .sub-menu .sub-menu a {
+		width: 112px;
 	}
 	.genesis-nav-menu > .last > a {
 		padding: 2rem 1.6rem;
