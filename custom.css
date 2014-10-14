@@ -205,6 +205,12 @@ textarea {
 	position: relative;
 	width: 45em;
 }
+.entry-content iframe.dojomap {
+	border: none;
+	height: 20em;
+	left: 0;
+	width: 100%;
+}
 .entry-content ul {
 	margin-left: 4rem;
 }
