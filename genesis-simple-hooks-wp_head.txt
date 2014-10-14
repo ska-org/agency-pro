@@ -1,3 +1,4 @@
+<!--[if lte IE 8]><script type="text/javascript" src="/wp-content/themes/agency-pro/css3-mediaqueries.js"></script><![endif]-->
 <link rel="stylesheet" id="agency-pro-custom" href="/wp-content/themes/agency-pro/custom.css" type="text/css" media="all">
 <script type="text/javascript">
   var SKA = {};

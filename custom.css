@@ -395,7 +395,8 @@ textarea {
 }
 .header-widget-area .widget.widget_text {
 	float:right;
-	margin-top: -11.5rem;
+	margin-top: -7em;
+	width: 260px;
 }
 .home-middle {
 	padding: 1% 0 5%;
@@ -500,11 +501,6 @@ textarea {
 }
 .site-header .widget {
 	width: 100%;
-}
-.site-header .widget:last-child {
-	float: right;
-	width: 260px;
-	margin-bottom: -110px;
 }
 .site-header .widget-area {
 	float: left;
