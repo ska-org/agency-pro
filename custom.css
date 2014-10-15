@@ -650,10 +650,16 @@ textarea {
 		background-position: center !important;
 		margin: 0 0 0.6rem;
 	}
+	.header-widget-area .widget.widget_nav_menu {
+		background-color: #030422;
+		left: 0;
+		position: fixed;
+		top: 5em;
+	}
 	.header-widget-area .widget.widget_text {
 		display: block;
 		float: none;
-		margin: 0px auto;
+		margin: 8em auto 0;
 		padding: 0px;
 		width: 186px;
 	}
@@ -665,7 +671,7 @@ textarea {
 		clear: left;
 	}
 	.site-container {
-		padding-top: 20em;
+		padding-top: 15em;
 	}
 	.site-header .search-form {
 		float: none;
@@ -686,8 +692,13 @@ textarea {
 		text-align: center;
 		width: 350px;
 	}
+	.site-header {
+		position: relative;
+	}
 	.title-area {
-		width: 100%;
+		background-color: #030422;
+		left: 0;
+		position: fixed;
 	}
 	.touch .home-middle .featuredpost .entry:nth-of-type(2n+1) {
 		background-color: #333;
@@ -782,6 +793,14 @@ textarea {
 	.genesis-nav-menu .menu-item:active > .sub-menu {
 		left: -2.25em;
 	}
+	.header-widget-area .widget.widget_nav_menu {
+		background-color: transparent;
+		position: relative;
+		top: 0;
+	}
+	.header-widget-area .widget.widget_text {
+		margin: 0 auto;
+	}
 	.home-middle .featuredpost img.entry-image {
 		position: relative;
 	}
@@ -833,6 +852,7 @@ textarea {
 	.title-area {
 		min-height: 0;
 		padding: 0.5em 0 0;
+		position: relative;
 	}
 	.touch .home-middle .featuredpost .entry:nth-of-type(2n+1) {
 		height: auto;
