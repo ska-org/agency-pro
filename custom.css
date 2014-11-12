@@ -398,7 +398,8 @@ textarea {
 .header-widget-area .widget.widget_text {
 	float:right;
 	margin-top: -7em;
-	width: 260px;
+	margin-right: 4.625em;
+	width: 11.625em;
 }
 .home-middle {
 	padding: 1% 0 5%;
@@ -506,6 +507,7 @@ textarea {
 }
 .site-header .widget-area {
 	float: left;
+	height: 2.625em;
 	margin-top: 0;
 	text-align: left;
 	width: 100%;
@@ -676,9 +678,6 @@ textarea {
 	.site-header .search-form {
 		float: none;
 		margin: 1.6rem auto;
-	}
-	.site-header .widget-area {
-		height: 2.6em;
 	}
 	.site-title {
 		text-align: center;
