@@ -838,16 +838,10 @@ textarea {
 	.site-header .widget-area {
 		height: auto;
 	}
-	.site-title a {
-		display: none;
-	}
-	.site-title.dojo {
+	.site-title {
 		font-size: 1em;
 		font-weight: 700;
 		margin-bottom: 0.5em;
-	}
-	.site-title.dojo a {
-		display: block;
 	}
 	.title-area {
 		min-height: 0;

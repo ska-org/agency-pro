@@ -1,8 +1,8 @@
 <?php
-// Add extra SKA title element and .dojo class if a dojo site
+// Add extra SKA title element if a dojo site
 if (preg_match('/[^.]+\.[^.]+\.[^.]+$/', $_SERVER['SERVER_NAME'])) {
     remove_action('genesis_site_title', 'genesis_seo_site_title');
-    function dojo_title() {?><div class="org-title">Shotokan Karate of America</div><h1 class="site-title dojo" itemprop="headline"><a href="/"><?php bloginfo('name') ?></a></h1><?php };
+    function dojo_title() {?><div class="org-title">Shotokan Karate of America</div><h1 class="site-title" itemprop="headline"><a href="/"><?php bloginfo('name') ?></a></h1><?php };
     add_action('genesis_site_title', 'dojo_title');
 }
 
